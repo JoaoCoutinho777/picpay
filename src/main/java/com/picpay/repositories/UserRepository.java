@@ -8,7 +8,7 @@ import com.picpay.domain.user.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
     
-    Optional<User> findeUserByDocument(String document);
+    Optional<User> findUserByDocument(String document);
 
-    Optional<User> findeUserById(Long id);
+    Optional<User> findUserById(Long id);
 }
